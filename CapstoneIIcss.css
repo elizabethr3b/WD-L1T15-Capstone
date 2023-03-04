@@ -1,0 +1,142 @@
+body {
+  font-family: cursive;
+  }
+
+header {
+  background-color: bisque;
+  text-align: justify;
+  }
+
+footer {
+  background-color: bisque;
+  text-align: center;
+  font-size: small;
+  padding: 1cm;
+  }
+
+img {
+    border: 20px solid black;
+}
+
+.itemPic {
+  height: 6cm;
+  width: 6cm;
+}
+
+img:hover {
+    transform: scale(1.5); /*enlarges the image when the mouse hovers over it, to 150% of original size*/
+}
+
+#headerimg {
+  border: 2px double royalblue;
+  float: right; /*floats the image to the right of the page*/
+  height: 100%;
+  width: 10%;
+  padding: 10px;
+  filter:hue-rotate(90deg) /*image filter*/
+}
+
+#clachan {
+  margin: auto;
+  height: 80%;
+  width: 400px;
+  padding: 10px;
+  border: 2px dotted blanchedalmond;
+  filter: sepia(100%) /*image filter*/
+}
+
+.aboutparas {      /*blocks with text and background*/   
+  background-color: black;
+  text-align: center;
+  color: blanchedalmond;
+  animation-name: about;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#testimonial {
+  display: block;
+  background-color: orangered;
+  font-style: italic;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.secondarytext {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body, table tr {
+  background-color: blanchedalmond;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  background-color: burlywood;
+  text-align: center;
+  border: 5px solid black;
+}
+
+.table,
+.table-bordered,
+.table-striped,
+.table-hover {
+  background-color: orangered;
+  color:blanchedalmond;
+  float: left; /*places table at the left of the page*/
+}
+
+.btn {
+  color: orangered;
+  padding: 2px;
+  margin: auto;
+}
+
+.btn:hover {
+  background-color: blanchedalmond;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: burlywood;
+}
+
+
+ol {
+    text-align: left;
+    display: inline-block;
+}
+
+ul li {
+    display:inline; 
+    padding:10px;
+}
+
+.blockquote-footer {
+    color: black;
+}
+
+.rounded {
+border: 15px solid darkgreen; 
+}
+
+.media-container {display: inline-flex;}
+
+figure {text-align: center;}
+
+figcaption {caption-side: bottom;}
+
+.prodPara {
+  font-size: 30px;
+  font-family: cursive;
+  margin: auto;
+}
+
+td {padding: 0.5cm;}
+
